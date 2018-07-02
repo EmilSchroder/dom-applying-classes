@@ -8,6 +8,7 @@ function start () {
   one();
   two();
   three();
+  four();
   // Your turn! Create a new function called `two`, then call it from here.
 }
 
@@ -36,3 +37,12 @@ function three () {
   three.classList.add('hotpink');
 }
 // CREATE FUNCTION makeVisible HERE
+
+function four () {
+
+  var fourarray = document.getElementsByClassName('invisible');
+
+  var four = fourarray[0];
+
+  four.classList.add('visible');
+}
