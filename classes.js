@@ -8,7 +8,7 @@ function start () {
   one();
   two();
   three();
-  four();
+  makeVisible();
   // Your turn! Create a new function called `two`, then call it from here.
 }
 
@@ -38,7 +38,7 @@ function three () {
 }
 // CREATE FUNCTION makeVisible HERE
 
-function four () {
+function makeVisible () {
 
   var fourarray = document.getElementsByClassName('invisible');
 
